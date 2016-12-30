@@ -4,6 +4,10 @@ import {Link} from 'react-router'
 
 class Post extends Component {
 
+  componentWillUpdate(nextProps, nextState) {
+    console.log(nextProps)
+  }
+
   render() {
     return (
       <div className="postsWrapper">

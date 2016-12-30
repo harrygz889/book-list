@@ -15,10 +15,12 @@ class Display extends Component {
   }
 
   handleSubmit(event) {
-    this.state.entries.push({
-      title: this.titleInput.value,
-      author: this.authorInput.value,
-      body: this.bodyText.value
+    this.setState({
+      entries: this.state.entries.concat([{
+        title: this.titleInput.value,
+        author: this.authorInput.value,
+        body: this.bodyText.value
+      }])
     })
     event.preventDefault()
   }

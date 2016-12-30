@@ -2,6 +2,11 @@ import React, {Component} from 'react'
 
 class Content extends Component {
 
+  constructor(props) {
+    super(props)
+     console.log('inside content', this.props)
+  }
+
   render() {
 
     var {entries} = this.props.route
