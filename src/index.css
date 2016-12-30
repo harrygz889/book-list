@@ -1,0 +1,53 @@
+a {
+  color: #474545;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #D6ECFA;
+}
+
+.postLink {
+  text-decoration: none;
+}
+
+.postLink:hover {
+  text-decoration: underline;
+}
+
+.postH {
+  display: inline;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+
+.divMargin {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.textAreaInput {
+  width: 300px;
+  height: 100px;
+}
+
+.input {
+  width: 300px;
+}
+
+.titleFont {
+  font-family: 'Cardo', serif;
+}
+
+.authorFont {
+  font-family: 'Old Standard TT', serif;
+}
+
+.authorMargin {
+  margin-top: 0;
+}
+
+.titleMargin {
+  margin-bottom: 0;
+}
