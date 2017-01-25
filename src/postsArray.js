@@ -1,3 +1,4 @@
+// Seed Data
 var posts = [
   {
     title: "A Walk in the Woods",
